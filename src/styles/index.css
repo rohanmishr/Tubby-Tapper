@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+#shop-container {
+    width: 27.5vw;
+    background-color: rgb(20, 20, 20);
+}
+
+#clicker-container {
+    width: 45vw;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+#weight-container {
+    background-color: rgb(40, 40, 40);
+    width: 60%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#managers-container {
+    width: 27.5vw;
+    background-color: rgb(20, 20, 20);
+}
+
+#clicker {
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 35%;
+}
